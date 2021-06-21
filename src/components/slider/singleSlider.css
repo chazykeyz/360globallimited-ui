@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .sliding {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sliding-mobile {
+    display: none;
+  }
+}

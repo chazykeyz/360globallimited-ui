@@ -1,0 +1,25 @@
+.cardImage img {
+  clip-path: circle(100%);
+  transition: 0.5s;
+}
+
+.work:hover .cardImage img {
+  clip-path: circle(30%);
+}
+.workTitle {
+  transform: translateY(40px);
+  transition: 0.5s;
+}
+
+.work:hover .workTitle {
+  transform: translateY(0);
+}
+
+.workLine {
+  width: 0px;
+  transition: 0.5s;
+}
+.work:hover .workLine {
+  width: 40px;
+  transition-delay: 0.3s;
+}

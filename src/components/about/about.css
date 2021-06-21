@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .about {
+    height: auto;
+  }
+  .logo {
+    display: none;
+  }
+}
+.about {
+  /* height: 400px; */
+  width: 100vw;
+  background-color: black;
+}

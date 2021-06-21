@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+  .positioning {
+    position: absolute;
+    right: 10px;
+  }
+}
+.active {
+  background: red;
+}
